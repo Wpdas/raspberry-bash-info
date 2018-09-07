@@ -1,0 +1,31 @@
+{
+  "name": "raspberry-bash-info",
+  "version": "1.0.0",
+  "description": "A service using Node that displays on the terminal (Linux only) some Raspberry details. Details such as CPU temperature, GPU temperature, Host, Time & etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wpdas/raspberry-bash-info.git"
+  },
+  "keywords": [
+    "raspberry",
+    "info",
+    "bash",
+    "terminal",
+    "cpu",
+    "gpu",
+    "temperature",
+    "host",
+    "show",
+    "displays"
+  ],
+  "author": "Wenderson Pires",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Wpdas/raspberry-bash-info/issues"
+  },
+  "homepage": "https://github.com/Wpdas/raspberry-bash-info#readme"
+}
