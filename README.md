@@ -17,7 +17,7 @@ $ npm start
 $ node raspberry-bash-info/
 ```
 
-![In use](https://raw.githubusercontent.com/Wpdas/raspberry-bash-info/example.png)
+![In use](https://raw.githubusercontent.com/Wpdas/raspberry-bash-info/master/example.png)
 
 ## License
 
