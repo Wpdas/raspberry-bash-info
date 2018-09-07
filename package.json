@@ -4,7 +4,8 @@
   "description": "A service using Node that displays on the terminal (Linux only) some Raspberry details. Details such as CPU temperature, GPU temperature, Host, Time & etc.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
   },
   "repository": {
     "type": "git",
@@ -27,5 +28,10 @@
   "bugs": {
     "url": "https://github.com/Wpdas/raspberry-bash-info/issues"
   },
-  "homepage": "https://github.com/Wpdas/raspberry-bash-info#readme"
+  "homepage": "https://github.com/Wpdas/raspberry-bash-info#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "clear": "^0.1.0",
+    "raspberry-info": "^1.0.1"
+  }
 }
