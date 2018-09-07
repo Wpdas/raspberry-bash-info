@@ -2,7 +2,6 @@
 
 const raspInfo = require('raspberry-info');
 const chalk = require('chalk');
-const clear = require('clear');
 const process = require('process');
 const app = require('./package.json');
 
@@ -16,8 +15,8 @@ function showDetails() {
     cpuTemp = await raspInfo.getCPUTemperature();
     gpuTemp = await raspInfo.getGPUTemperature();
 
-    clear();
-    console.log();
+    // Clear terminal
+    console.log('\x1Bc');
 
     console.log(
       chalk.white.bgBlack.bold(

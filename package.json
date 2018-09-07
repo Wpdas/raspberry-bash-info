@@ -31,7 +31,6 @@
   "homepage": "https://github.com/Wpdas/raspberry-bash-info#readme",
   "dependencies": {
     "chalk": "^2.4.1",
-    "clear": "^0.1.0",
     "raspberry-info": "^1.0.1"
   }
 }
