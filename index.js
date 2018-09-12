@@ -6,7 +6,7 @@ const process = require('process');
 const app = require('./package.json');
 
 function showDetails() {
-  let cpuTemp, gpuTemp;
+  let cpuTemp, gpuTemp, memUsage;
   const isItLinux = process.platform === 'linux';
 
   console.log('Initializing...');
@@ -14,6 +14,7 @@ function showDetails() {
   setInterval(async () => {
     cpuTemp = await raspInfo.getCPUTemperature();
     gpuTemp = await raspInfo.getGPUTemperature();
+    memUsage = await raspInfo.getMemoryUsage();
 
     // Clear terminal
     console.log('\x1Bc');
@@ -28,6 +29,7 @@ function showDetails() {
 
     console.log(`${chalk.cyan.bold('CPU Temp:')} ${chalk.green(cpuTemp)}`);
     console.log(`${chalk.cyan.bold('GPU Temp:')} ${chalk.green(gpuTemp)}`);
+    console.log(`${chalk.cyan.bold('Memory Usage:')} ${chalk.green(memUsage)}`);
     if (!isItLinux)
       console.log(chalk.red.bold("Warning: That's not a Linux OS!"));
   }, 1000);
