@@ -27,9 +27,9 @@ function showDetails() {
       )
     );
 
+    console.log(`${chalk.cyan.bold('Memory Usage:')} ${chalk.green(memUsage)}`);
     console.log(`${chalk.cyan.bold('CPU Temp:')} ${chalk.green(cpuTemp)}`);
     console.log(`${chalk.cyan.bold('GPU Temp:')} ${chalk.green(gpuTemp)}`);
-    console.log(`${chalk.cyan.bold('Memory Usage:')} ${chalk.green(memUsage)}`);
     if (!isItLinux)
       console.log(chalk.red.bold("Warning: That's not a Linux OS!"));
   }, 1000);

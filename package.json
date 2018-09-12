@@ -1,6 +1,6 @@
 {
   "name": "raspberry-bash-info",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A service using Node that displays on the terminal (Linux only) some Raspberry details. Details such as CPU temperature, GPU temperature, Host, Time & etc.",
   "main": "index.js",
   "scripts": {
