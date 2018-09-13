@@ -1,6 +1,6 @@
 {
   "name": "raspberry-bash-info",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A service using Node that displays on the terminal (Linux only) some Raspberry details. Details such as CPU temperature, GPU temperature, Host, Time & etc.",
   "main": "index.js",
   "scripts": {
@@ -33,6 +33,6 @@
   "homepage": "https://github.com/Wpdas/raspberry-bash-info#readme",
   "dependencies": {
     "chalk": "^2.4.1",
-    "raspberry-info": "^1.0.2"
+    "raspberry-info": "^1.0.4"
   }
 }
